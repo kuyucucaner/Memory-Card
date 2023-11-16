@@ -1,0 +1,37 @@
+.header {
+    width: 100%;
+    background-color: #232D3F;
+    box-shadow: 2px 2px 2px #0F0F0F;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    margin-left: 50px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color : white;
+}
+
+.left-side-header {
+    text-align: start;
+    display: flex;
+    align-items: center; 
+}
+
+.right-side-header {
+    text-align: end;
+    display: flex;
+    align-items: center; 
+    margin-right: 100px;
+}
+.header-score{
+    margin-right: 60px;
+    color: white;
+}
+.header-best-score{
+    color:white;
+}

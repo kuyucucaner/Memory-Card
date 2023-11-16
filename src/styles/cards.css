@@ -1,0 +1,42 @@
+.card-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-wrap: wrap;
+    text-align: center;
+}
+.card {
+    width: 280px;
+    height: 350px;
+    background-color: #232D3F;
+    box-shadow: 0 0 10px 5px #008170, 0 0 10px -5px #008170;
+    border-radius: 15px;
+    font-size: 23px;
+    font-family: "Galada";
+    margin: 30px;
+    position: relative;
+
+    transition: transform 0.3s ease;
+
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0 0 20px 10px #008170, 0 0 20px -10px #008170;
+    transform: scale(1.05);
+
+}
+
+.card-name {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.card-image{
+    color :white;
+    width: 180px;
+    height: 230px;
+    border-radius: 20px;
+    padding-bottom:50px;
+}
