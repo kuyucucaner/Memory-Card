@@ -1,6 +1,6 @@
 # 🧠 Memory Card Game
 
-**Memory Card** is a simple yet engaging web-based memory game built with React and Vite. The goal is to click each of the 10 unique cards only once. If you click the same card twice, you lose the game. Try to achieve the highest possible score of 10!
+**Memory Card** is a simple yet engaging web-based memory game built with React and Vite. The goal is to click each of the 10 unique cards only once. If you click the same card twice, you lose the game. Try to achieve the highest possible score of 10! 
 
 ---
 
